@@ -1,0 +1,16 @@
+.micro-fe-table {
+  :global(.t-card__body) {
+    padding: 0;
+  }
+
+  .app-name-tag {
+    width: 100%;
+    padding: 0;
+
+    > span {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
