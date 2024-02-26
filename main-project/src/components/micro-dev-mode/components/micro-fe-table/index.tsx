@@ -54,7 +54,7 @@ export default function MicroFeTable(): React.ReactElement {
             onChange={(value) => {
               onUrlChangeHandle(value, rowIndex);
             }}
-            placeholder="as http://localhost:3000"
+            placeholder="like http://localhost:3000"
           />
         );
       },

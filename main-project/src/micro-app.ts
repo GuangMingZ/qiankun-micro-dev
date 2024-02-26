@@ -5,13 +5,13 @@ export const MICRO_APP_CONTAINER = "#micro-frontend-root";
 
 const defaultMicroAppConfig = [
   {
-    name: "react app", // app name registered
-    entry: "//localhost:3001",
+    name: "react-app", // app name registered
+    entry: "//localhost:3003",
     container: "#micro-frontend-root",
     activeRule: "/react-app",
   },
   {
-    name: "vue app",
+    name: "vue-app",
     entry: "//localhost:3002",
     container: "#micro-frontend-root",
     activeRule: "/vue-app",

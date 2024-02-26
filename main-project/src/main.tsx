@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "@arco-design/web-react/dist/css/arco.css";
-import 'tdesign-react/es/style/index.css';
+import "tdesign-react/es/style/index.css";
 import { registerMicroApps, start } from "qiankun";
 import microAppConfig from "./micro-app";
 import { MICRO_FRONTEND_ROOT_READY } from "./components/micro-app-div";

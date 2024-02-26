@@ -15,7 +15,7 @@ function App() {
     >
       <img src={react} alt="" className={s.img} />
       <div className="hello">
-        <h1>Hello React App</h1>
+        <h1>Hello React App 本地联调模式</h1>
       </div>
     </div>
   );
